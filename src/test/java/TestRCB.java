@@ -7,11 +7,12 @@ import java.io.IOException;
 
 public class TestRCB {
     public String name,location;
-    public JSONArray player;
     JSONReader jsonReader=new JSONReader();
+    public JSONArray player= (JSONArray)jsonReader.getJson("player");
+    public TestRCB() throws IOException, ParseException {
+    }
     @Test
-    void verifyForeignPlayer() throws IOException, ParseException {
-        player = (JSONArray)jsonReader.getJson("player");
+    void verifyForeignPlayer() {
         int count=0;
         for(int i=0; i<= player.size()-1;i++){
             JSONObject js= (JSONObject) player.get(i);
@@ -21,5 +22,16 @@ public class TestRCB {
         }
         Assert.assertEquals(4,count);
         System.out.println("Team has only 4 foreign players");
+    }
+
+    @Test
+    void verifyWicketKepper() {
+           for(int i=0; i<= player.size()-1;i++) {
+            JSONObject js = (JSONObject) player.get(i);
+            if(js.get("role").equals("Wicket-keeper")){
+                Assert.assertTrue(true);
+                System.out.println("Team has at least Wicket Keeper");
+            }
+        }
     }
 }

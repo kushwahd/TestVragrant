@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3927b759-e156-4f70-a7b7-72f9be9f232f" name="Changes" comment="initial commit with json reader">
-      <change afterPath="$PROJECT_DIR$/src/main/java/JSONReader.java" afterDir="false" />
+    <list default="true" id="3927b759-e156-4f70-a7b7-72f9be9f232f" name="Changes" comment="Created JSONReader class and first Test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/TestRCB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestRCB.java" afterDir="false" />
     </list>
@@ -56,16 +55,14 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.TestRCB.verifyForeignPlayer">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
+  <component name="RunManager" selected="TestNG.TestRCB">
+    <configuration name="TestRCB" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestVragrant" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestRCB" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -94,18 +91,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestRCB.readjson" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TestVragrant" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestRCB" />
-      <option name="METHOD_NAME" value="readjson" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TestRCB.verifyForeignPlayer" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestVragrant" />
       <option name="PACKAGE_NAME" value="" />
@@ -118,13 +103,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestRCB.verifyWicketKepper" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestVragrant" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestRCB" />
+      <option name="METHOD_NAME" value="verifyWicketKepper" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TestRCB" />
+        <item itemvalue="TestNG.TestRCB.verifyWicketKepper" />
         <item itemvalue="TestNG.TestRCB.verifyForeignPlayer" />
         <item itemvalue="TestNG.TestRCB.foreignPlayer" />
         <item itemvalue="TestNG.TestRCB.readjson (1)" />
-        <item itemvalue="TestNG.TestRCB.readjson" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -137,11 +134,23 @@
       <option name="presentableId" value="Default" />
       <updated>1672754784011</updated>
       <workItem from="1672754785250" duration="3577000" />
-      <workItem from="1672821526794" duration="5060000" />
+      <workItem from="1672821526794" duration="6295000" />
     </task>
+    <task id="LOCAL-00001" summary="Created JSONReader class and first Test">
+      <created>1672837384361</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1672837384361</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Created JSONReader class and first Test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created JSONReader class and first Test" />
   </component>
 </project>
