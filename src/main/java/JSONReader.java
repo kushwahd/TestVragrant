@@ -9,7 +9,7 @@ import java.io.IOException;
 public class JSONReader {
     JSONObject readJson() throws IOException, ParseException {
         JSONParser parser = new JSONParser();
-        FileReader fileReader = new FileReader(".\\src\\JsonFiles\\jsonfile.json");
+        FileReader fileReader = new FileReader("src\\main\\resources\\jsonfile.json");
         Object obj = parser.parse(fileReader);
         JSONObject jsonObject = (JSONObject) obj;
         return jsonObject;

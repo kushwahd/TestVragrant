@@ -67,6 +67,12 @@
       "country": "India",
       "role": "Bowler",
       "price-in-crores": "7.75"
+    },
+    {
+      "name": "Dinesh Karthik",
+      "country": "India",
+      "role": "Wicket-keeper",
+      "price-in-crores": "5.5"
     }
   ]
 }

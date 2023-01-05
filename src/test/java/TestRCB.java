@@ -21,17 +21,18 @@ public class TestRCB {
             }
         }
         Assert.assertEquals(4,count);
-        System.out.println("Team has only 4 foreign players");
     }
 
     @Test
     void verifyWicketKepper() {
-           for(int i=0; i<= player.size()-1;i++) {
+        int roleCount=0;
+        for(int i=0; i<= player.size()-1;i++) {
             JSONObject js = (JSONObject) player.get(i);
             if(js.get("role").equals("Wicket-keeper")){
-                Assert.assertTrue(true);
-                System.out.println("Team has at least Wicket Keeper");
+                    roleCount=1;
+
             }
         }
+        Assert.assertEquals(roleCount,1);
     }
 }
